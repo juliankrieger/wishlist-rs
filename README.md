@@ -31,6 +31,10 @@ Returns:
 
 ## Notes
 
+### Why did you build this?
+
+I wanted to include a list of wanted items on my personal homepage without just linking to my Amazon wishlist. 
+
 ### Why does this not make use of Amazon's ASIN?
 
 To request item information via [their Product Advertising API](https://webservices.amazon.com/paapi5/documentation/get-items.html), the user would need a P-API account. These are pretty hard to come by and not given out to just anybody by Amazon.
