@@ -49,6 +49,7 @@ For performance reasons, Amazon decided to use lazy loading in their wishlists. 
 - Documentation
 - Build a more robust scraper
 - Enable `unparsed` version where the webservice just returns unparsed HTML for each wishlist item
+- add tests
 
 ## License
 
