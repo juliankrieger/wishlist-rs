@@ -35,7 +35,7 @@ async fn index(params: web::Path<String>, data: Data<AppState>) -> Result<String
 async fn main() -> std::io::Result<()> {
 
     let data = Data::new(AppState {
-        webdriver_port: String::from("9515"),
+        webdriver_port: String::from("4444"),
     });
 
     HttpServer::new(move || 

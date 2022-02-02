@@ -8,6 +8,8 @@ The project is split into `lib` and `bin`: You can download and consume the libr
 
 ## Usage
 
+First, you'll have to setupa WebDriver compatible process on port 4444 for the webscraper to interact with. See the documentation of [fantoccini](https://github.com/jonhoo/fantoccini) for more info (`wishlist-rs` uses fantoccini internally).
+
 Upon execution, the binary runs a small webserver on port 8080. You can then access it with your Amazon wishlist URL as a parameter to get back json data which describes each wishlist item. 
 
 Example:
